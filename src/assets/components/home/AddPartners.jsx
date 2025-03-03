@@ -92,7 +92,7 @@ const AddPartners = () => {
     }
 
     try {
-      const response = await fetch("http://localhost:3000/api/partenaires", {
+      const response = await fetch("https://seed-backend-pcka.onrender.com/api/partenaires", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
