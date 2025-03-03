@@ -11,7 +11,7 @@ const PartenaireScroller = () => {
     // Récupérer les données depuis l'API
     const fetchPartenaires = async () => {
       try {
-        const response = await fetch('http://localhost:3000/api/partenaires');
+        const response = await fetch('https://seed-backend-pcka.onrender.com/api/partenaires');
         const data = await response.json();
         setPartenaires(data);
       } catch (error) {
