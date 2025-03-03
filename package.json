@@ -1,0 +1,49 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "tailwind:init": "tailwindcss init -p"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.0",
+    "@react-aria/ssr": "^3.9.7",
+    "@react-stately/utils": "^3.10.5",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "dlv": "^1.1.3",
+    "framer-motion": "^12.4.5",
+    "motion-dom": "^12.4.5",
+    "motion-utils": "^12.0.0",
+    "pdfjs-dist": "^4.10.38",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-fast-marquee": "^1.6.5",
+    "react-helmet-async": "^2.0.5",
+    "react-icons": "^5.5.0",
+    "react-pageflip": "^2.0.3",
+    "react-pdf": "^8.0.2",
+    "react-router-dom": "^7.2.0",
+    "swiper": "^11.2.4",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.19.0",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.18",
+    "globals": "^15.14.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.1.0"
+  }
+}

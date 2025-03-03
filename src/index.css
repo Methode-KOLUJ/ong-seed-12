@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-bebas {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.active {
+  text-decoration: underline;
+  text-decoration-color: goldenrod;
+  text-decoration-thickness: 3px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Mode clair (par défaut) */
+body {
+  @apply bg-gradient-to-tl from-blue-950 via-transparent to-red-950 text-gray-900;
+}
+
+/* Mode sombre */
+.dark body {
+  @apply bg-black;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+/*MEDIA QUERIES POUR LES ELEMENTS APRES NAVBAR*/
+
+@media (max-width: 667px) {
+  #afterNav {
+    margin-top: 53px /* 80px */;
+  }
+}
+@media (width: 720px) {
+  #afterNav {
+    margin-top: 53px /* 80px */;
+  }
+}
+@media (max-width: 1280px) {
+  #afterNav {
+    margin-top: 60px /* 80px */;
+  }
+}
+@media (min-width: 1280px) {
+  #afterNav {
+    margin-top: 69px /* 80px */;
+  }
+}
